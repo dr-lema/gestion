@@ -1,0 +1,62 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    position: relative;
+}
+
+header{
+    text-align: center;
+    background-color: rgb(163, 163, 250);
+    height: 90px;
+    font-size: 25px;
+    font-weight: bold;
+    line-height:90px;
+}
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    padding: 30px 0 10px;
+
+}
+
+.content .formulaire form{
+    margin-top: 30px;
+    padding: 0 20px;
+}
+.content .formulaire form input{
+    margin-bottom: 10px;
+    height: 30px;
+    width: 200px;
+    border-radius: 20px;
+    outline: none;
+    padding-left:50px;
+    margin-left:100px;
+}
+.content {
+    display: flex;
+    justify-content: center;
+    padding: 120px 0;
+    background-color: gray;
+}
+label{
+    color:white;
+}
+button{
+    margin-left: 50%;
+    display:block;
+    top: 450px;
+    position: absolute;
+}
+footer{
+text-align: center;
+background-color: rgb(163, 163, 250);
+height: 90px;
+font-size: 25px;
+font-weight: bold;
+line-height:90px;
+}
+
